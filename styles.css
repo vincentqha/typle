@@ -87,3 +87,23 @@ body {
 .space {
     margin-top: 10px;
 }
+
+.refresh-button-container {
+    display: none;
+    width: 320px;
+}
+
+.refresh-button-container.show {
+    display: flex;
+    flex-direction: column;
+}
+
+.refresh-button-style {
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #E5E9F0;
+}

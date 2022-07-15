@@ -38,6 +38,9 @@ async function startGame() {
 function endGame() {
     gameState.status = 'GAME_OVER';
 
+    const refreshButtonContainer = document.querySelector('.refresh-button-container');
+    refreshButtonContainer.classList.add('show');
+
     const definitionContainer = document.querySelector('.definition-container');
 
     if (gameState.definition) {
