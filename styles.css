@@ -7,6 +7,23 @@ body {
     background-color: black;
 }
 
+.light-mode {
+    background-color: white;
+}
+
+.light-mode h2 {
+    color: black;
+}
+
+.light-mode span {
+    color: black;
+}
+
+.light-mode button {
+    background-color: black;
+    color: white;
+}
+
 .main-container {
     display: flex;
     align-items: center;
@@ -106,4 +123,19 @@ body {
     border-radius: 5px;
     border-color: transparent;
     background-color: #E5E9F0;
+}
+
+.toggle-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.theme-button-style {
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 14px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #e5e9f0;
 }

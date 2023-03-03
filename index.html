@@ -21,6 +21,9 @@
         <header class="header">
             <h2>typle</h2>
         </header>
+        <div class="toggle-container">
+            <button id="theme-toggle" class="theme-button-style">theme</button>
+        </div>
         <div class="grid-container">
             <div class="grid-item"></div>
             <div class="grid-item"></div>
@@ -58,6 +61,17 @@
             <button class="refresh-button-style" onClick="window.location.reload();">re-typle</button>
         </div>
     </div>
+
+    <script>
+        const themeToggle = document.querySelector("#theme-toggle");
+        const body = document.querySelector("body");
+
+        if (themeToggle) {
+            themeToggle.addEventListener("click", () => {
+                body.classList.toggle("light-mode");
+            });
+        }
+    </script>
 </body>
 
 </html>
